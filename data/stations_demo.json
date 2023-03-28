@@ -1,0 +1,94 @@
+[
+  {
+    "latitude": 55.725787,
+    "longitude": 52.40642,
+    "region": "Republic of Tatarstan",
+    "region_number": 16,
+    "station_address": "Republic of Tatarstan, Naberezhnye Chelny, st. 40 years of Victory, 29",
+    "station_id": "20180318.16.2090",
+    "station_number": 2090,
+    "timezone_offset_minutes": 180,
+    "ballots_given_at_station_on_election_day": 1723,
+    "ballots_given_before_election_day": 0,
+    "ballots_given_outside_station_on_election_day": 17,
+    "turnout": 0.7844905320108205,
+    "koib_keg": 0,
+    "voters_registered": 2218,
+    "utc8am": 1521349200,
+    "camera_id": [
+      "09161084-991a-aaaa-aaaa-64db8b375fed-sub",
+      "09161084-989a-aaaa-aaaa-64db8b375feb-sub"
+    ],
+    "ballots_in_ballot_boxes_after_election": 1723,
+    "turnout_voters": 1740
+  },
+  {
+    "latitude": 51.281571,
+    "longitude": 37.804233,
+    "region": "Belgorod region",
+    "region_number": 31,
+    "station_address": "Belgorod Region, Stary Oskol, Friendship Boulevard, 1",
+    "station_id": "20180318.31.0948",
+    "station_number": 948,
+    "timezone_offset_minutes": 180,
+    "ballots_given_at_station_on_election_day": 1304,
+    "ballots_given_before_election_day": 0,
+    "ballots_given_outside_station_on_election_day": 76,
+    "turnout": 0.6415620641562064,
+    "koib_keg": 0,
+    "voters_registered": 2151,
+    "utc8am": 1521349200,
+    "camera_id": [
+      "09161082-463a-aaaa-aaaa-64db8b37560d-sub",
+      "09161082-494a-aaaa-aaaa-64db8b37562c-sub"
+    ],
+    "ballots_in_ballot_boxes_after_election": 1300,
+    "turnout_voters": 1380
+  },
+  {
+    "latitude": 60.194142,
+    "longitude": 29.702229,
+    "region": "Saint Petersburg",
+    "region_number": 78,
+    "station_address": "St. Petersburg, Zelenogorsk, Lenina avenue, 2",
+    "station_id": "20180318.78.1265",
+    "station_number": 1265,
+    "timezone_offset_minutes": 180,
+    "ballots_given_at_station_on_election_day": 846,
+    "ballots_given_before_election_day": 0,
+    "ballots_given_outside_station_on_election_day": 33,
+    "turnout": 0.6251778093883357,
+    "koib_keg": 0,
+    "voters_registered": 1406,
+    "utc8am": 1521349200,
+    "camera_id": [
+      "09157434-952a-aaaa-aaaa-64db8b2b26e3-sub",
+      "09157439-291a-aaaa-aaaa-64db8b2b37d6-sub"
+    ],
+    "ballots_in_ballot_boxes_after_election": 845,
+    "turnout_voters": 879
+  },
+  {
+    "latitude": 59.876811,
+    "longitude": 30.380116,
+    "region": "Saint Petersburg",
+    "region_number": 78,
+    "station_address": "St. Petersburg, Prazhskaya st., 7k4",
+    "station_id": "20180318.78.2046",
+    "station_number": 2046,
+    "timezone_offset_minutes": 180,
+    "ballots_given_at_station_on_election_day": 1301,
+    "ballots_given_before_election_day": 0,
+    "ballots_given_outside_station_on_election_day": 55,
+    "turnout": 0.7007751937984497,
+    "koib_keg": 0,
+    "voters_registered": 1935,
+    "utc8am": 1521349200,
+    "camera_id": [
+      "09157441-712a-aaaa-aaaa-64db8b2b414b-sub",
+      "09157448-092a-aaaa-aaaa-64db8b2b5a37-sub"
+    ],
+    "ballots_in_ballot_boxes_after_election": 1301,
+    "turnout_voters": 1356
+  }
+]

@@ -1,0 +1,11 @@
+.idea
+__pycache__
+
+action_recognition/weights
+evopose2d/models
+QueryInst/weights
+yolact/weights
+
+data/revisor_results
+data/source_videos
+data/temp
