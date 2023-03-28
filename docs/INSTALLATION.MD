@@ -155,9 +155,9 @@ pip3 install --user tf2onnx onnxruntime Cython==0.29.23
 
 Download The Revisor archive with source code files, unpack it and install requirements:
 ```
-wget ...
-unzip ...
-pip3 install -r revisor_path/requirements.txt
+wget https://github.com/RevisorTeam/revisor.git
+unzip revisor-main.zip
+pip3 install -r ~/revisor-main/requirements.txt
 ```
 
 ### Step 6
@@ -167,7 +167,7 @@ pip3 install -r revisor_path/requirements.txt
 Build YOLOv4 TensorRT engine.
 
 ```
-cd revisor_path/yolov4_trt/plugins
+cd ~/revisor-main/yolov4_trt/plugins
 make
 ```
 If you get an error, try to edit Makefile located in `yolov4_trt/plugins/Makefile`:
@@ -177,7 +177,7 @@ If you get an error, try to edit Makefile located in `yolov4_trt/plugins/Makefil
 After successful execution, `yolo_layer.o` and `libyolo_layer.so` will be created.
 
 ```
-cd revisor_path/yolov4_trt/yolo
+cd ~/revisor-main/yolov4_trt/yolo
 wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights
 ln -sf yolov4.weights yolov4-608.weights
 python3 yolo_to_onnx.py -m yolov4-608
@@ -191,7 +191,7 @@ python3 onnx_to_tensorrt.py -m yolov4-608
 Build EvoPose2D TensorRT engine. 
 
 ```
-mkdir revisor_path/evopose2d/models
+mkdir ~/revisor-main/evopose2d/models
 ```
 
 Download [official EvoPose2D-M FP32 weights]
@@ -212,7 +212,7 @@ If your GPU is different, you need to change following in the script:
    `INFO - Model inputs: ['input_1']` line
 
 ```
-cd revisor_path/evopose2d
+cd ~/revisor-main/evopose2d
 python3 evo_h52pb.py
 python3 -m tf2onnx.convert --saved-model models/evopose2d_M_f32 --output "models/evopose2d_M.onnx"
 python3 evo_onnx2trt.py
@@ -225,9 +225,9 @@ python3 evo_onnx2trt.py
 Download Action recognition model, YOLACT and QueryInst weights.
 
 ```
-mkdir revisor_path/action_recognition/weights
-mkdir revisor_path/yolact/weights
-mkdir revisor_path/QueryInst/weights
+mkdir ~/revisor-main/action_recognition/weights
+mkdir ~/revisor-main/yolact/weights
+mkdir ~/revisor-main/QueryInst/weights
 ```
 
 1. Download [action recognition weights file] and put it in `action_recognition/weights/votes_recognizer.pt`
@@ -237,7 +237,7 @@ mkdir revisor_path/QueryInst/weights
 Install mmdet library.
 
 ```
-cd revisor_path/QueryInst
+cd ~/revisor-main/QueryInst
 sudo python3 setup.py develop
 ```
 
