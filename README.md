@@ -1,7 +1,6 @@
 
 ![The Revisor logo](docs/images/logo.png)
 
-<br></br>
 The Revisor is a computer vision tool that makes elections results transparent and reliable. 
 It automatically counts voter turnout of polling stations allowing civil society 
 to verify official results.
@@ -12,7 +11,7 @@ Repository contains following modes of the Revisor's core:
 
 | Mode name               | Purpose                           | How to enable _(edit cfg.py)_           |
 |-------------------------|-----------------------------------|-----------------------------------------|
-| local                   | Demo and tests                    | Already enabled                         |
+| Local                   | Demo and tests                    | Already enabled                         |
 | Dataset maker mode      | Gather unlabelled actions dataset | Set `dataset_maker_mode` to `True`      |
 | ReID dataset maker mode | Gather unlabelled ReID dataset    | Set `reid_dataset_maker_mode` to `True` |
 
