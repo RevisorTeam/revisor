@@ -41,8 +41,7 @@ about falsifications during Russian elections.
 
 1. Make sure your [hardware satisfies requirements] and you have all [required source data]. 
 
-2. Install dependencies by following [installation guide]. 
-Otherwise, you can use Docker and launch the Revisor from there.
+2. Install dependencies by following [installation guide].
 
 3. Install process manager to run the Revisor without stopping: supervisor, pm2, etc. _(optional)_
 
