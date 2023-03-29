@@ -5,6 +5,8 @@ The Revisor is a computer vision tool that makes elections results transparent a
 It automatically counts voter turnout of polling stations allowing civil society 
 to verify official results.
 
+Read our **[Medium post]** to learn more about the Revisor's architecture.
+
 [![How does the Revisor work?](docs/images/preview_youtube.png)](https://www.youtube.com/watch?v=4KiZuIlc5wk)
 
 Repository contains following modes of the Revisor's core:
@@ -129,6 +131,7 @@ Thanks to following project's authors for their amazing work:
 * [Centroid tracker](https://pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/)
 
 
+[Medium post]: https://medium.com/@RevisorTeam/how-ai-exposed-millions-of-forged-votes-in-russian-elections-40f9bd3fa655
 [Meduza]: https://meduza.io/en/
 [Meduza's material]: https://meduza.io/en/feature/2022/08/12/17-1-million-stuffed-ballots
 [hardware satisfies requirements]: docs/HARDWARE_REQUIREMENTS.MD
