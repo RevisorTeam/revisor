@@ -103,7 +103,7 @@ We are open to any help. If you want to contribute to the project, we see follow
 ---
 
 - [ ] Reveal the Revisor action dataset (ReSet Actions)
-- [ ] Reveal backbone evolution library (Evolly)
+- [x] Reveal backbone evolution library (Evolly)
 - [ ] Reveal re-identification model optimized by Evolly and training pipelines
 
 
